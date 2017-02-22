@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DA-PAInsight
+  host: DA-PAInsight
+  disk_quota: 1024M
+  services:
+  - DA-PAInsight-personality_insights
